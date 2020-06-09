@@ -1,13 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/singledigit/projectLeetCodeExercise/LeetCodeExercise/LeetCodeExercise.csproj",
+    "projectUniqueName": "D:\\Project\\LeetCodeExercise\\LeetCodeExercise.csproj",
     "projectName": "LeetCodeExercise",
-    "projectPath": "/Users/singledigit/projectLeetCodeExercise/LeetCodeExercise/LeetCodeExercise.csproj",
-    "outputPath": "/Users/singledigit/projectLeetCodeExercise/LeetCodeExercise/obj/",
+    "projectPath": "D:\\Project\\LeetCodeExercise\\LeetCodeExercise.csproj",
+    "outputPath": "D:\\Project\\LeetCodeExercise\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"
