@@ -22,11 +22,13 @@ https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/
         //所以想要用递归的方式解决
         public int TranslateNum(int num)
         {
+            if (num < 10)
+                return 1;
 
-            return -1;
-
+            int tail = num % 100;
+            return TranslateNum(num / 10) + ((9 < tail && tail < 26) ? TranslateNum(num / 100) : 0);
         }
-        
+
         //题解思路
         
         //其他思路
